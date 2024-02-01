@@ -1,0 +1,70 @@
+.card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+h2 {
+  color: #d56f3e;
+}
+
+#pets .card img{
+  border-radius: 15px;
+}
+#pets .card:hover{
+  background-color:#80C4B7;
+} 
+span {
+  color: #9d6f24;
+}
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets {
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media (max-width:375px){
+  #pets{
+    flex-wrap: wrap;
+  }
+}
+
+
+
+.cartText p{
+  margin-top: 12px;
+}
+.cartText h2{
+  margin-top: 11px;
+}
+.cartText .btn button{
+  width: 140px;
+  height: 40px;
+  background-color: rgb(255, 89, 0);
+  color: white;
+  border: none;
+  font-size: 22px;
+  margin-inline: 11px;
+  margin-top: 22px;
+}
+.cartText .back{
+  width: 140px;
+  height: 40px;
+  background-color:rgb(4, 81, 81);
+  color: white;
+  border: none;
+  font-size: 22px;
+  margin-inline: 11px;
+  margin-top: 22px;
+}
+
+footer{
+  background: #212226;
+  padding: 20px;
+}
